@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from tkinter import *
+from tkinter import PhotoImage
 
 
 
@@ -35,6 +35,12 @@ def confirmar_pedido():
 # Janela principal
 root = tk.Tk()
 root.title("Pizzaria SENAC")
+
+root.geometry('500x500')
+image_path = "imagens\pngwing.com.png"
+img = PhotoImage(file=image_path)
+label = tk.Label(root, image=img)
+label.pack()
 
 
 # Título
