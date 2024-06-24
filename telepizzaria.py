@@ -36,12 +36,6 @@ def confirmar_pedido():
 root = tk.Tk()
 root.title("Pizzaria SENAC")
 
-root.geometry('500x500')
-image_path = "imagens\pngwing.com.png"
-img = PhotoImage(file=image_path)
-label = tk.Label(root, image=img)
-label.pack()
-
 
 # Título
 titulo_label = tk.Label(root, text="Escolha o tamano da pizza e seus adicionais", font=('Cascadia Code', 12, 'bold'))
